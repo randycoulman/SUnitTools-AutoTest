@@ -10,7 +10,7 @@ License.txt file on GitHub.
 SUnitToo(ls)-AutoTest's primary home is the
 [Cincom Public Store Repository](http://www.cincomsmalltalk.com/CincomSmalltalkWiki/Public+Store+Repository).
 Check there for the latest version.  It is also on
-[GitHub](https://github.com/randycoulman/SUnitToo(ls)-AutoTest).
+[GitHub](https://github.com/randycoulman/SUnitTools-AutoTest).
 
 SUnitToo(ls)-AutoTest was developed in VW 7.9.1, but is compatible
 with VW 7.7 and later.  If you find any incompatibilities with VW 7.7
@@ -20,7 +20,7 @@ issue on GitHub.
 # Introduction
 
 SUnitToo(ls)-AutoTest automatically runs relevant SUnitToo tests when
-a method is changed.  The tests to run are selecting using the same
+a method is changed.  The tests to run are selected using the same
 approach as the standard SUnitToo(ls) use.  If a test method is
 changed, then that method will be run.  If a non-test method in a
 TestCase subclass is changed, then all of the tests in that class will
@@ -94,7 +94,7 @@ opened again.
 listens for announcements from a `ChangeSetListener`, asks a
 `BuildSuite` to create a test suite, and then runs it using
 `SuiteRunner`.  `SuiteRunner` reports its progress by asking
-`AutoTestAnnouncer` to announce various progress announcements.  a
+`AutoTestAnnouncer` to announce various progress announcements.  A
 `MethodHitCounter` (a `MethodWrapper`) is installed for the duration
 of the test run to report a `HitCount` for the changed method.  An
 `AutoTestResults` contains the final results of the test run.
