@@ -1,5 +1,7 @@
 # SUnitToo(ls)-AutoTest
 
+![Maintenance Status](https://img.shields.io/badge/maintenance-active-green.svg)
+
 Automatically run appropriate tests when a method changes in Cincom
 Visualworks Smalltalk.
 
